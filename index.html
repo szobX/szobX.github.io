@@ -19,11 +19,19 @@
 <meta name="description" content="Hi Im Patryk. It's my portfolio"/>
 <meta name="reply-to" content="szoberpatryk@op.pl">
   <title>Patryk Szober - Front End dev</title>
-  <link rel="stylesheet" href="bundle.css?a005bee37a4c61be228c">
+  <link rel="stylesheet" href="bundle.css?acad856943bb6738a902">
 </head>
 
 <body>
       <a href="#" class="to-up"><img src="./src/images/toggle.png" alt=" UP"></a>
+
+<div class="preloader">
+
+  <div class="preloader__text"> Hello! </div>
+  <div class="loader"></div>
+</div>
+
+
       <header class="container navbar">
         <a href="#" class="logo"><img src="./src/images/logo.png" alt="{SP}"></a>
         <div href="" class="menuBtn">
@@ -49,20 +57,20 @@
       </header>
    
      <section id="#" class="container">
-       <div class="row hero">
+       <div class="row hero " data-aos="flip-down">
           <div class="hero__text"><p>Tworzę rozwiązanie webowe, <br> a dokładniej Front-webowe <div class="hero__buttons">
             <a class="btn btn-fill">Skontakuj się</a>
             <a class="btn btn-outline">Portfolio</a>
           </div></p></div>
            
-            <div class="hero__img">
+            <div class="hero__img"  data-aos="fade-up-left" data-aos-duration="3000">
               <img class="img-scale" src="./src/images/hero.png" alt="hero">
             </div>
        </div>
      </section>
      <section id="about" class="container">
         <div class="about">
-           <div class="about__img"><img class="img-scale" src="./src/images/phoho2.jpg" alt="photo2"></div>
+           <div class="about__img" data-aos="zoom-out-down" data-aos-duration="2500"><img class="img-scale" src="./src/images/phoho2.jpg" alt="photo2"></div>
 
            <div class="about__title">Cześć, nazywam się <br> <span class="primary-color">Patryk Szober</span> 
           
@@ -174,7 +182,8 @@ czym pomaga mi bilbioteka REACT JS.
             </div> 
       
       <div class=" portfolio">
-            <div class="portfolio__card">
+            <div class="portfolio__card" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
             <div class="portfolio__header">
               <span class="portfolio__text">Landing Page</span>
               <div class="portoflio__stack">
@@ -196,7 +205,8 @@ czym pomaga mi bilbioteka REACT JS.
             </div>
             </div>
 
-            <div class="portfolio__card">
+            <div class="portfolio__card "  data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"> 
                 <div class="portfolio__header">
                   <span class="portfolio__text">Shop Store</span>
                   <div class="portoflio__stack">
@@ -220,7 +230,8 @@ czym pomaga mi bilbioteka REACT JS.
                 </div>
 
 
-                <div class="portfolio__card">
+                <div class="portfolio__card"  data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
                     <div class="portfolio__header">
                       <span class="portfolio__text">Portfolio</span>
                       <div class="portoflio__stack">
@@ -242,7 +253,8 @@ czym pomaga mi bilbioteka REACT JS.
                     </div>
                     </div>
 
-                    <div class="portfolio__card">
+                    <div class="portfolio__card"  data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                         <div class="portfolio__header">
                           <span class="portfolio__text">Landing Page</span>
                           <div class="portoflio__stack">
@@ -274,39 +286,39 @@ czym pomaga mi bilbioteka REACT JS.
       </div> 
 
      <div class="stack">
-       <div class="stack__card">
+       <div class="stack__card" data-aos="fade-left">
          <img src="./src/images/css.png" alt="css">
          <p class="stack__title">Css</pclass>
        </div>
-       <div class="stack__card">
+       <div class="stack__card"data-aos="fade-up-right">
           <img src="./src/images/html.png" alt="html">
           <p class="stack__title">Html</p>
         </div>
-        <div class="stack__card">
+        <div class="stack__card" data-aos="fade-left">
             <img src="./src/images/js.png" alt="js">
             <p class="stack__title">JavaScript</p>
           </div>
-          <div class="stack__card">
+          <div class="stack__card"data-aos="fade-up-right">
               <img src="./src/images/es6.png" alt="es6">
               <p class="stack__title">ES6</p>
             </div>
-            <div class="stack__card">
+            <div class="stack__card" data-aos="fade-left">
                 <img src="./src/images/git.png" alt="git">
                 <p class="stack__title">Git</p>
               </div>
-              <div class="stack__card">
+              <div class="stack__card"data-aos="fade-up-right">
                   <img src="./src/images/react.png" alt="react">
                   <p class="stack__title">React</p>
                 </div>
-                <div class="stack__card">
+                <div class="stack__card" data-aos="fade-left">
                     <img src="./src/images/redux.png" alt="redux">
                     <p class="stack__title">Redux</p>
                   </div>
-                  <div class="stack__card">
+                  <div class="stack__card"data-aos="fade-up-right">
                       <img src="./src/images/npm.png" alt="npm">
                       <p class="stack__title">Npm</p>
                     </div>
-                    <div class="stack__card">
+                    <div class="stack__card"data-aos="fade-left">
                         <img src="./src/images/sass.png" alt="sass">
                         <p class="stack__title">Sass</p>
                       </div>
@@ -379,8 +391,10 @@ czym pomaga mi bilbioteka REACT JS.
       <a href="#" class="logo logo-inverse"><img src="./src/images/logo.png" alt="{SP}"></a>
       <div class="copyright">Patryk Szober 2019</div>
    </footer>
+  
+  
 
-  <script defer src="bundle.js?a005bee37a4c61be228c"></script>
+  <script defer src="bundle.js?acad856943bb6738a902"></script>
 </body>
 
 </html>
